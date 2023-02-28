@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="?android:attr/selectableItemBackground"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/card_product"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:foreground="?android:attr/selectableItemBackground"
+            android:theme="@style/ThemeOverlay.AppCompat.Light"
+            app:cardCornerRadius="10dp"
+            app:cardElevation="0dp">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+                    <TextView
+                        android:id="@+id/check_qty"
+                        android:layout_width="180dp"
+                        android:padding="3dp"
+                        android:drawableLeft="@drawable/baseline_event_available_24"
+                        android:fontFamily="@font/notosanslaoui_regular"
+                        android:layout_height="wrap_content"
+                        android:text=" ມີສີນໃນສາງ"
+                        android:textColor="@color/white"
+
+                        app:fontFamily="@font/notosanslaoui_regular" />
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:id="@+id/images"
+                        android:layout_marginTop="5dp"
+                        android:layout_width="140dp"
+                        android:layout_height="130dp"
+                        android:layout_gravity="center"
+                        android:src="@drawable/image_placeholder"
+                        app:cardCornerRadius="10dp"
+                        app:cardElevation="0dp"
+                        />
+                    <TextView
+                        android:id="@+id/txt_product_name"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:padding="0dp"
+                        android:text="@string/product_name"
+                        android:textSize="16sp"
+                        app:fontFamily="@font/notosanslaoui_regular" />
+                       <ProgressBar
+                        android:id="@+id/progressBar"
+                        style="?android:attr/progressBarStyleHorizontal"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:indeterminate="true"
+                        android:backgroundTint="@color/white"
+                        android:indeterminateTint="#1a09d6"
+                        android:visibility="gone"
+                        android:layout_marginTop="-7dp"/>
+
+                    <TextView
+                        android:visibility="gone"
+                        android:id="@+id/txt_stock"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="@string/product_stock"
+                        app:fontFamily="@font/sailec_regular" />
+
+
+
+
+                    <TextView
+                        android:id="@+id/txt_price"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="@string/price"
+                        android:textColor="@color/red"
+                        app:fontFamily="@font/notosanslaoui_regular" />
+
+
+
+                    <TextView
+                        android:id="@+id/txt_number"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:textColor="#F60707"
+                        android:text="0"
+                        app:fontFamily="@font/sailec_regular" />
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+                        <Button
+
+                            android:gravity="center"
+                            android:id="@+id/txt_minus"
+                            android:layout_width="60dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="2dp"
+                            android:background="@color/colorPrimary"
+                            android:fontFamily="@font/notosanslaoui_regular"
+                            android:text="-"
+                            android:textColor="#fff"
+                            android:textStyle="bold" />
+
+                        <Button
+
+                            android:id="@+id/btn_add_cart"
+                            android:layout_width="50dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="2dp"
+                            android:layout_toEndOf="@+id/btn_add_carts"
+                            android:background="@color/colorPrimary"
+                            android:fontFamily="@font/notosanslaoui_regular"
+                            android:text="ເບີກ"
+                            android:textColor="#fff"
+                            android:textStyle="bold" />
+
+                        <Button
+
+                            android:id="@+id/txt_plus"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="2dp"
+                            android:layout_toEndOf="@+id/btn_add_cart"
+                            android:background="@color/colorPrimary"
+                            android:fontFamily="@font/notosanslaoui_regular"
+                            android:text="+"
+                            android:textColor="#FBFAFA"
+                            android:textStyle="bold" />
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+    </LinearLayout>
+
+</LinearLayout>

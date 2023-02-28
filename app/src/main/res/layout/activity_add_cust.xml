@@ -1,0 +1,333 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+
+            <EditText
+                android:visibility="gone"
+                android:id="@+id/et_category_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="22dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="35dp"
+                android:background="@drawable/round_border"
+                android:fontFamily="@font/sailec_regular"
+                android:hint="@string/category_name"
+                android:inputType="text"
+                android:padding="16dp"
+                android:textColor="@color/colorPrimary"
+                android:textSize="16dp" />
+
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:fontFamily="@font/notosanslaoui_regular"
+                android:padding="5dp"
+                android:textColor="@color/colorPrimary"
+                android:text="ປະເພດຮ້ານ" />
+            <EditText
+                android:id="@+id/etxt_product_category"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="22dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="35dp"
+                android:background="@drawable/round_border"
+                android:fontFamily="@font/notosanslaoui_regular"
+                android:hint="ເລືອກ"
+                android:inputType="text"
+
+                android:padding="16dp"
+                android:drawableRight="@drawable/ic_search"
+                android:textColor="@color/colorPrimary"
+                android:textSize="16dp"/>
+
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:fontFamily="@font/notosanslaoui_regular"
+                android:padding="5dp"
+                android:textColor="@color/colorPrimary"
+                android:text="ຮ້ານ" />
+            <EditText
+                android:id="@+id/OutletType"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="22dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="35dp"
+                android:background="@drawable/round_border"
+                android:fontFamily="@font/notosanslaoui_regular"
+                android:hint="ເລືອກ"
+                android:inputType="text"
+
+                android:padding="16dp"
+                android:drawableRight="@drawable/ic_search"
+                android:textColor="@color/colorPrimary"
+                android:textSize="16dp"/>
+
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:fontFamily="@font/notosanslaoui_regular"
+                android:padding="5dp"
+                android:textColor="@color/colorPrimary"
+                android:text="ຂະໜາດຂອງລູກຄ້າ" />
+            <EditText
+                android:id="@+id/OutletSize"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="22dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="35dp"
+                android:background="@drawable/round_border"
+                android:fontFamily="@font/notosanslaoui_regular"
+                android:hint="ເລືອກ"
+                android:inputType="text"
+
+                android:padding="16dp"
+                android:drawableRight="@drawable/ic_search"
+                android:textColor="@color/colorPrimary"
+                android:textSize="16dp"/>
+
+
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:fontFamily="@font/notosanslaoui_regular"
+                android:padding="5dp"
+                android:textColor="@color/colorPrimary"
+                android:text="ຊື່ ລູກຄ້າ" />
+            <EditText
+                android:id="@+id/customer_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="22dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="35dp"
+                android:background="@drawable/round_border"
+                android:fontFamily="@font/notosanslaoui_regular"
+                android:hint="ຊື່ ລູກຄ້າ"
+                android:inputType="text"
+                android:padding="16dp"
+                android:textColor="@color/colorPrimary"
+                android:textSize="16dp"/>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:fontFamily="@font/notosanslaoui_regular"
+                android:padding="5dp"
+                android:textColor="@color/colorPrimary"
+                android:text="ທີ່ຢູ່ ບ້ານ" />
+            <EditText
+                android:id="@+id/village"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="22dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="35dp"
+                android:background="@drawable/round_border"
+                android:fontFamily="@font/notosanslaoui_regular"
+                android:hint="ທີ່ຢູ່ ບ້ານ"
+                android:inputType="text"
+                android:padding="16dp"
+                android:textColor="@color/colorPrimary"
+                android:textSize="16dp"/>
+
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:fontFamily="@font/notosanslaoui_regular"
+                android:padding="5dp"
+                android:textColor="@color/colorPrimary"
+                android:text="ເມືອງ" />
+            <EditText
+                android:id="@+id/district"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="22dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="35dp"
+                android:background="@drawable/round_border"
+                android:fontFamily="@font/notosanslaoui_regular"
+                android:hint="ເມືອງ"
+                android:inputType="text"
+                android:padding="16dp"
+                android:textColor="@color/colorPrimary"
+                android:textSize="16dp"/>
+
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:fontFamily="@font/notosanslaoui_regular"
+                android:padding="5dp"
+                android:textColor="@color/colorPrimary"
+                android:text="ແຂວງ" />
+            <EditText
+                android:id="@+id/province"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="22dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="35dp"
+                android:background="@drawable/round_border"
+                android:fontFamily="@font/notosanslaoui_regular"
+                android:hint="ແຂວງ"
+                android:inputType="text"
+                android:padding="16dp"
+                android:textColor="@color/colorPrimary"
+                android:textSize="16dp"/>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:fontFamily="@font/notosanslaoui_regular"
+                android:padding="5dp"
+                android:textColor="@color/colorPrimary"
+                android:text="ເບີໂທລະສັບ" />
+            <EditText
+                android:id="@+id/phone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="22dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="35dp"
+                android:background="@drawable/round_border"
+                android:fontFamily="@font/notosanslaoui_regular"
+                android:hint="ເບີໂທລະສັບ"
+                android:inputType="number"
+                android:padding="16dp"
+                android:textColor="@color/colorPrimary"
+                android:textSize="16dp"/>
+
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:fontFamily="@font/notosanslaoui_regular"
+                android:padding="5dp"
+                android:textColor="@color/colorPrimary"
+                android:text="ແຟັກ" />
+            <EditText
+                android:id="@+id/fax"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="22dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="35dp"
+                android:background="@drawable/round_border"
+                android:fontFamily="@font/notosanslaoui_regular"
+                android:hint="ແຟັກ"
+                android:inputType="number"
+                android:padding="16dp"
+                android:textColor="@color/colorPrimary"
+                android:textSize="16dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:fontFamily="@font/notosanslaoui_regular"
+                android:padding="5dp"
+                android:textColor="@color/colorPrimary"
+                android:text="ອີເມວ" />
+            <EditText
+                android:id="@+id/email"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="22dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="35dp"
+                android:background="@drawable/round_border"
+                android:fontFamily="@font/notosanslaoui_regular"
+                android:hint="ອີເມວ"
+                android:inputType="text"
+                android:padding="16dp"
+                android:textColor="@color/colorPrimary"
+                android:textSize="16dp"/>
+
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:fontFamily="@font/notosanslaoui_regular"
+                android:padding="5dp"
+                android:textColor="@color/colorPrimary"
+                android:text="ໜາຍເຫດ" />
+            <EditText
+                android:id="@+id/remark"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="22dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="35dp"
+                android:background="@drawable/round_border"
+                android:fontFamily="@font/notosanslaoui_regular"
+                android:hint="ໜາຍເຫດ"
+                android:inputType="text"
+                android:padding="16dp"
+                android:textColor="@color/colorPrimary"
+                android:textSize="16dp"/>
+
+            <TextView
+                android:id="@+id/txt_add_category"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="32dp"
+                android:layout_marginRight="40dp"
+                android:layout_marginBottom="18dp"
+                android:background="@drawable/rounded_button"
+                android:fontFamily="@font/sailec_regular"
+                android:gravity="center"
+                android:padding="10dp"
+                android:text="ບັນທືກ"
+                android:textColor="#ffffff"
+                android:textSize="16dp"
+                android:textStyle="bold" />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
