@@ -6,13 +6,13 @@ public class Constant {
     }
     //For retrofit base url must end with /
   //  public static final String BASE_URL = "https://wes.tpkeosee.com/pages/api/";
-    public static final String BASE_URL = "https://itclao.com/admin/";
+    public static final String BASE_URL = "http://apis.itclao.com/admin/";
     //public static final String BASE_URL = "https://itclao.com/admin/";
     //For retrofit base url must end with /
   //  public static final String PRODUCT_IMAGE_URL = "http://yokjork.bigclao.com/pages/pages/img/";
-    public static final String PRODUCT_IMAGE_URL = "https://itclao.com/admin/";
+    public static final String PRODUCT_IMAGE_URL = "http://apis.itclao.com/admin/";
     //We will use this to store the user token number into shared preference
-    public static final String SHARED_PREF_NAME = "itclao.com"; //pcakage name+ id /com.app.onlinesmartpos
+    public static final String SHARED_PREF_NAME = "apis.itclao.com"; //pcakage name+ id /com.app.onlinesmartpos
     public static final String SP_PASSWORD = "Password";
     public static final String SP_EMAIL = "User_ID";
     public static final String USERID= "User_ID";

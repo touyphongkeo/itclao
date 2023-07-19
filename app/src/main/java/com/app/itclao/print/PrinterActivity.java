@@ -144,7 +144,6 @@ public class PrinterActivity extends AppCompatActivity {
 
 
         LayoutInflater inflater = (LayoutInflater) this.getSystemService(Context.LAYOUT_INFLATER_SERVICE);
-
         View contentView1 = inflater.inflate(R.layout.activity_print, null);
         @SuppressLint("WrongViewCast") RelativeLayout view1 = (RelativeLayout) contentView1.findViewById(R.id.relatived);
 

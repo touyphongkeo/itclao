@@ -40,7 +40,6 @@
                         android:layout_height="wrap_content"
                         android:text=" ມີສີນໃນສາງ"
                         android:textColor="@color/white"
-
                         app:fontFamily="@font/notosanslaoui_regular" />
                     <de.hdodenhof.circleimageview.CircleImageView
                         android:id="@+id/images"
